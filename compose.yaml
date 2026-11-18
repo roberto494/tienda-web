@@ -6,7 +6,7 @@ services:
     container_name: nexobit-web
     # Solo accesible desde tu propio equipo (no desde la red)
     ports:
-      - "127.0.0.1:8080:80"
+      - "127.0.0.1:8081:80"
     environment:
       DB_HOST: db
       DB_NAME: ${MYSQL_DATABASE}
