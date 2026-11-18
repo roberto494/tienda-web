@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+ <linearGradient id="dis" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b4359"/><stop offset="1" stop-color="#141925"/></linearGradient>
+ <linearGradient id="acento" x1="0" x2="1"><stop offset="0" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff4d00"/></linearGradient>
+ <linearGradient id="luz" x1="0" x2="1"><stop offset="0" stop-color="#ff4d00"/><stop offset=".35" stop-color="#ffb347"/><stop offset=".7" stop-color="#ff6a00"/><stop offset="1" stop-color="#ff2e63"/></linearGradient>
+ <g id="modulo">
+  <rect x="0" y="118" width="300" height="20" fill="#1c6a43"/>
+  <g fill="#e2c15a"><rect x="8" y="124" width="4" height="14"/><rect x="16" y="124" width="4" height="14"/><rect x="24" y="124" width="4" height="14"/><rect x="32" y="124" width="4" height="14"/><rect x="40" y="124" width="4" height="14"/><rect x="48" y="124" width="4" height="14"/><rect x="56" y="124" width="4" height="14"/><rect x="64" y="124" width="4" height="14"/><rect x="72" y="124" width="4" height="14"/><rect x="80" y="124" width="4" height="14"/><rect x="88" y="124" width="4" height="14"/><rect x="96" y="124" width="4" height="14"/><rect x="104" y="124" width="4" height="14"/><rect x="112" y="124" width="4" height="14"/><rect x="120" y="124" width="4" height="14"/><rect x="128" y="124" width="4" height="14"/><rect x="146" y="124" width="4" height="14"/><rect x="154" y="124" width="4" height="14"/><rect x="162" y="124" width="4" height="14"/><rect x="170" y="124" width="4" height="14"/><rect x="178" y="124" width="4" height="14"/><rect x="186" y="124" width="4" height="14"/><rect x="194" y="124" width="4" height="14"/><rect x="202" y="124" width="4" height="14"/><rect x="210" y="124" width="4" height="14"/><rect x="218" y="124" width="4" height="14"/><rect x="226" y="124" width="4" height="14"/><rect x="234" y="124" width="4" height="14"/><rect x="242" y="124" width="4" height="14"/><rect x="250" y="124" width="4" height="14"/><rect x="258" y="124" width="4" height="14"/><rect x="266" y="124" width="4" height="14"/><rect x="274" y="124" width="4" height="14"/><rect x="282" y="124" width="4" height="14"/><rect x="290" y="124" width="4" height="14"/></g>
+  <rect x="137" y="128" width="6" height="10" fill="#fff"/>
+  <path d="M0 22h300v100H0z" fill="url(#dis)" stroke="#4d566c"/>
+  <rect x="0" y="0" width="300" height="24" rx="6" fill="url(#luz)"/>
+  <rect x="0" y="12" width="300" height="12" fill="#11151f" opacity=".25"/>
+  <path d="M0 60l40-38h50l-40 38z" fill="url(#acento)"/>
+  <path d="M220 122l40-40h40v40z" fill="#262d3e"/>
+  <path d="M60 50h180M60 56h150" stroke="#545e76" stroke-width="2"/>
+  <text x="150" y="98" font-family="Arial, sans-serif" font-size="22" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="4">PULSE</text>
+  <text x="150" y="112" font-family="Arial, sans-serif" font-size="9" fill="#ff9a4a" text-anchor="middle" letter-spacing="2">DDR5 · 6000</text>
+ </g>
+</defs>
+<use href="#modulo" x="70" y="40" opacity=".9"/>
+<use href="#modulo" x="40" y="110"/>
+</svg>

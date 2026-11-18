@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+ <linearGradient id="cuerpo" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a4256"/><stop offset=".5" stop-color="#1f2534"/><stop offset="1" stop-color="#121621"/></linearGradient>
+ <linearGradient id="acento" x1="0" x2="1"><stop offset="0" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff4d00"/></linearGradient>
+ <radialGradient id="aspa" cx=".5" cy=".5" r=".5"><stop offset="0" stop-color="#4a5368"/><stop offset="1" stop-color="#1a1f2b"/></radialGradient>
+ <g id="ventilador">
+  <circle r="46" fill="#0b0e15"/><circle r="44" fill="url(#aspa)"/>
+  <g fill="#2b3244" stroke="#56607a" stroke-width=".8">
+   <path d="M0-6C10-30 30-38 40-22 26-22 12-14 0-6z"/>
+   <path d="M0-6C10-30 30-38 40-22 26-22 12-14 0-6z" transform="rotate(51.4)"/>
+   <path d="M0-6C10-30 30-38 40-22 26-22 12-14 0-6z" transform="rotate(102.8)"/>
+   <path d="M0-6C10-30 30-38 40-22 26-22 12-14 0-6z" transform="rotate(154.2)"/>
+   <path d="M0-6C10-30 30-38 40-22 26-22 12-14 0-6z" transform="rotate(205.6)"/>
+   <path d="M0-6C10-30 30-38 40-22 26-22 12-14 0-6z" transform="rotate(257)"/>
+   <path d="M0-6C10-30 30-38 40-22 26-22 12-14 0-6z" transform="rotate(308.4)"/>
+  </g>
+  <circle r="13" fill="#141823" stroke="url(#acento)" stroke-width="2.5"/>
+  <circle r="46" fill="none" stroke="url(#acento)" stroke-width="2" opacity=".9"/>
+ </g>
+</defs>
+<rect x="72" y="210" width="230" height="16" rx="2" fill="#c9a43a"/>
+<g fill="#e8c95a">
+ <rect x="80" y="212" width="6" height="12"/><rect x="92" y="212" width="6" height="12"/><rect x="104" y="212" width="6" height="12"/><rect x="116" y="212" width="6" height="12"/><rect x="128" y="212" width="6" height="12"/><rect x="140" y="212" width="6" height="12"/><rect x="152" y="212" width="6" height="12"/><rect x="176" y="212" width="6" height="12"/><rect x="188" y="212" width="6" height="12"/><rect x="200" y="212" width="6" height="12"/><rect x="212" y="212" width="6" height="12"/><rect x="224" y="212" width="6" height="12"/><rect x="236" y="212" width="6" height="12"/><rect x="248" y="212" width="6" height="12"/><rect x="260" y="212" width="6" height="12"/><rect x="272" y="212" width="6" height="12"/><rect x="284" y="212" width="6" height="12"/>
+</g>
+<rect x="352" y="70" width="12" height="150" rx="2" fill="#9aa3b5"/>
+<rect x="20" y="70" width="340" height="146" rx="16" fill="url(#cuerpo)" stroke="#4d566c" stroke-width="1.5"/>
+<path d="M36 82h308" stroke="#59627a" stroke-width="1"/>
+<path d="M20 120l22-40h40l-10 20H40z" fill="url(#acento)" opacity=".9"/>
+<path d="M360 170l-22 40h-40l10-20h40z" fill="url(#acento)" opacity=".9"/>
+<use href="#ventilador" x="85" y="143"/>
+<use href="#ventilador" x="190" y="143"/>
+<use href="#ventilador" x="295" y="143"/>
+<rect x="150" y="196" width="80" height="12" rx="3" fill="#0b0e15"/>
+<text x="190" y="205.5" font-family="Arial, sans-serif" font-size="8.5" font-weight="700" fill="#ff7a1a" text-anchor="middle" letter-spacing="2">VORTEX</text>
+</svg>

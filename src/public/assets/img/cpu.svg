@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+ <linearGradient id="ihs" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f4f6fa"/><stop offset=".45" stop-color="#c3cad6"/><stop offset=".55" stop-color="#d9dee7"/><stop offset="1" stop-color="#9ba5b6"/></linearGradient>
+ <linearGradient id="pcb" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1f6b45"/><stop offset="1" stop-color="#0f3f28"/></linearGradient>
+ <linearGradient id="acento" x1="0" x2="1"><stop offset="0" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff4d00"/></linearGradient>
+ <pattern id="pads" width="10" height="10" patternUnits="userSpaceOnUse"><circle cx="5" cy="5" r="2" fill="#d8b44a"/></pattern>
+</defs>
+<g transform="translate(200 150) rotate(-12)">
+ <rect x="-118" y="-118" width="236" height="236" rx="14" fill="url(#pcb)" stroke="#0a2c1c" stroke-width="2"/>
+ <rect x="-110" y="-110" width="220" height="220" rx="10" fill="url(#pads)" opacity=".6"/>
+ <path d="M-118 96l22 22h-22z" fill="#d8b44a"/>
+ <rect x="-90" y="-90" width="180" height="180" rx="12" fill="#6d7686"/>
+ <rect x="-86" y="-86" width="172" height="172" rx="10" fill="url(#ihs)"/>
+ <path d="M-86 -30L30 -86h56v40L-46 86h-40z" fill="#fff" opacity=".25"/>
+ <text x="0" y="-22" font-family="Arial, sans-serif" font-size="30" font-weight="800" fill="#2a3142" text-anchor="middle" letter-spacing="1">ARKON</text>
+ <rect x="-50" y="-6" width="100" height="30" rx="6" fill="url(#acento)"/>
+ <text x="0" y="16" font-family="Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle">R7</text>
+ <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#4a5366" text-anchor="middle" letter-spacing="2">8700 · 8C/16T</text>
+ <text x="0" y="68" font-family="monospace" font-size="9" fill="#6b7487" text-anchor="middle">NX-2026-LAB</text>
+</g>
+</svg>

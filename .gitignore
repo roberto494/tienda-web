@@ -1,0 +1,15 @@
+# Secretos
+.env
+*.env
+!.env.example
+
+# Datos y registros generados
+src/logs/
+*.log
+*.sql.gz
+dumps/
+
+# Sistema / editores
+.DS_Store
+.vscode/
+.idea/

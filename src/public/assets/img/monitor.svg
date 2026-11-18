@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+ <linearGradient id="pantalla" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1b2a55"/><stop offset=".55" stop-color="#3b1f5e"/><stop offset="1" stop-color="#ff5a00"/></linearGradient>
+ <linearGradient id="marco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2b3244"/><stop offset="1" stop-color="#11151f"/></linearGradient>
+ <linearGradient id="pie" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5a647c"/><stop offset="1" stop-color="#2b3244"/></linearGradient>
+ <linearGradient id="acento" x1="0" x2="1"><stop offset="0" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff4d00"/></linearGradient>
+</defs>
+<path d="M180 214h40l8 50h-56z" fill="url(#pie)"/>
+<ellipse cx="200" cy="268" rx="78" ry="10" fill="#2b3244"/>
+<ellipse cx="200" cy="266" rx="74" ry="7" fill="url(#pie)"/>
+<rect x="28" y="30" width="344" height="196" rx="10" fill="url(#marco)" stroke="#4d566c"/>
+<rect x="36" y="38" width="328" height="174" rx="4" fill="url(#pantalla)"/>
+<path d="M36 170 110 120 160 150 240 80 300 120 364 90V212H36z" fill="#0d1321" opacity=".55"/>
+<path d="M36 190 120 150 190 176 270 120 364 150V212H36z" fill="#0d1321" opacity=".75"/>
+<circle cx="292" cy="78" r="22" fill="#ffb347" opacity=".9"/>
+<g fill="#fff" opacity=".9"><circle cx="70" cy="60" r="1.2"/><circle cx="120" cy="52" r="1"/><circle cx="160" cy="70" r="1.3"/><circle cx="210" cy="48" r="1"/><circle cx="250" cy="62" r="1.1"/><circle cx="96" cy="88" r="1"/></g>
+<path d="M36 38h150L36 140z" fill="#fff" opacity=".06"/>
+<rect x="182" y="215" width="36" height="5" rx="2" fill="url(#acento)"/>
+<text x="200" y="208" font-family="Arial, sans-serif" font-size="9" font-weight="700" fill="#fff" opacity=".8" text-anchor="middle" letter-spacing="3">HORIZON 165Hz</text>
+</svg>

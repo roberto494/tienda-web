@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+<defs>
+ <linearGradient id="dis" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#454e65"/><stop offset="1" stop-color="#181d29"/></linearGradient>
+ <linearGradient id="acento" x1="0" x2="1"><stop offset="0" stop-color="#ff8a2b"/><stop offset="1" stop-color="#ff4d00"/></linearGradient>
+</defs>
+<g transform="translate(200 150) rotate(-14)">
+ <rect x="-170" y="-40" width="340" height="80" rx="6" fill="#16583a"/>
+ <rect x="170" y="-34" width="14" height="68" fill="#16583a"/>
+ <g fill="#e2c15a"><rect x="172" y="-30" width="12" height="5"/><rect x="172" y="-21" width="12" height="5"/><rect x="172" y="-12" width="12" height="5"/><rect x="172" y="-3" width="12" height="5"/><rect x="172" y="6" width="12" height="5"/><rect x="172" y="15" width="12" height="5"/><rect x="172" y="24" width="12" height="5"/></g>
+ <rect x="172" y="0" width="12" height="3" fill="#16583a"/>
+ <path d="M-170 -14a10 10 0 0 1 0 28z" fill="#e7ecf3"/>
+ <circle cx="-162" cy="0" r="6" fill="#bdc5d2"/>
+ <rect x="-150" y="-46" width="300" height="92" rx="8" fill="url(#dis)" stroke="#5a6480"/>
+ <g stroke="#2b3245" stroke-width="5">
+  <path d="M-120 -46v92M-100 -46v92M-80 -46v92M-60 -46v92M-40 -46v92"/>
+ </g>
+ <rect x="-20" y="-30" width="150" height="60" rx="6" fill="#0f131c"/>
+ <rect x="-20" y="-30" width="6" height="60" fill="url(#acento)"/>
+ <text x="55" y="-2" font-family="Arial, sans-serif" font-size="24" font-weight="800" fill="#fff" text-anchor="middle" letter-spacing="4">FLUX</text>
+ <text x="55" y="18" font-family="Arial, sans-serif" font-size="10" fill="#ff9a4a" text-anchor="middle" letter-spacing="2">NVMe 2TB · GEN4</text>
+</g>
+</svg>
